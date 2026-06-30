@@ -1,16 +1,15 @@
-# My Portfolio Website
+# Modern Portfolio Website
 
-Simple static portfolio built with HTML, CSS, and JavaScript.
+A clean, modern one-page portfolio built using HTML, CSS, and JavaScript.
 
 ## Features
+- Full screen hero section
+- Background image (online)
+- Smooth scrolling
 - Responsive design
-- Resume download
-- Skills section
-- Project showcase
+- GitHub Pages ready
 
-## Hosting
-Deploy on GitHub Pages:
-1. Push repo to GitHub
-2. Go to Settings → Pages
-3. Select branch: main
-4. Done 🚀
+## Deployment
+1. Upload files to GitHub repo
+2. Enable GitHub Pages
+3. Done 🚀  
