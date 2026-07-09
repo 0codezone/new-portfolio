@@ -1,78 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Popup</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="overlay"></div>
+    <div class="container">
+        <h1>Click Here To Open Box</h1>
 
-    <div class="content">
-      <h1>Hi, I'm <span>Your Name</span></h1>
-      <p>I build simple, modern and useful web experiences.</p>
-
-      <div class="buttons">
-        <a href="#about">Explore</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-      I am an IT enthusiast passionate about cloud, infrastructure and web development.
-      I love building clean and modern UI experiences.
-    </p>
-  </section>
-
-  <!-- SKILLS -->
-  <section class="section dark">
-    <h2>Skills</h2>
-
-    <div class="grid">
-      <div class="card">HTML</div>
-      <div class="card">CSS</div>
-      <div class="card">JavaScript</div>
-      <div class="card">Linux</div>
-      <div class="card">Networking</div>
-      <div class="card">Cloud Basics</div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section class="section">
-    <h2>Projects</h2>
-
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>Modern responsive portfolio hosted on GitHub Pages.</p>
+        <button id="openBtn">Open Box</button>
     </div>
 
-    <div class="project">
-      <h3>Monitoring Script</h3>
-      <p>System health monitoring automation script.</p>
+    <div class="popup" id="popup">
+        <div class="popup-box">
+            <h2>ANushka you Nonsense</h2>
+
+            <button id="closeBtn">Close</button>
+        </div>
     </div>
-  </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section dark">
-    <h2>Contact</h2>
-    <p>Email: yourname@gmail.com</p>
-    <p>Phone: +91-XXXXXXXXXX</p>
-  </section>
+    <script src="script.js"></script>
 
-  <footer>
-    <p>© 2026 Your Name | Built with HTML • CSS • JS</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>

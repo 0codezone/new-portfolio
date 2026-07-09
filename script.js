@@ -1,9 +1,17 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener("click", function(e) {
-    e.preventDefault();
+const popup = document.getElementById("popup");
+const openBtn = document.getElementById("openBtn");
+const closeBtn = document.getElementById("closeBtn");
 
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
-      behavior: "smooth"
-    });
-  });
+openBtn.addEventListener("click", () => {
+    popup.style.display = "flex";
+});
+
+closeBtn.addEventListener("click", () => {
+    popup.style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+    if (e.target === popup) {
+        popup.style.display = "none";
+    }
 });
