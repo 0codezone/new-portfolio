@@ -1,28 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Popup</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Open The Surprise ❤️</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <div class="container">
-        <h1>Click Here To Open Box</h1>
+    <div id="hearts"></div>
 
-        <button id="openBtn">Open Box</button>
-    </div>
+    <img class="sticker sticker1"
+        src="https://api.iconify.design/twemoji/red-heart.svg">
+
+    <img class="sticker sticker2"
+        src="https://api.iconify.design/twemoji/sparkles.svg">
+
+    <img class="sticker sticker3"
+        src="https://api.iconify.design/twemoji/gift.svg">
+
+    <main class="container">
+
+        <h1>✨ Click Here To Open Surprise ✨</h1>
+
+        <p>
+            A tiny surprise is waiting for you 😊
+        </p>
+
+        <button id="openBtn">
+            🎁 Open Box
+        </button>
+
+    </main>
 
     <div class="popup" id="popup">
-        <div class="popup-box">
-            <h2>ANushka you Nonsense</h2>
 
-            <button id="closeBtn">Close</button>
+        <div class="popup-content">
+
+            <img src="https://api.iconify.design/twemoji/rolling-on-the-floor-laughing.svg">
+
+            <h2>😂 ANushka you Nonsense 😂</h2>
+
+            <p>That's it... This was the whole surprise 😆</p>
+
+            <button id="closeBtn">
+                Close
+            </button>
+
         </div>
+
     </div>
 
-    <script src="script.js"></script>
+<script src="./script.js"></script>
 
 </body>
 </html>
