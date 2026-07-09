@@ -1,26 +1,23 @@
 const popup = document.getElementById("popup");
 
 document.getElementById("openBtn").onclick = () => {
-
-popup.style.display = "flex";
-
-}
+    popup.style.display = "flex";
+};
 
 document.getElementById("closeBtn").onclick = () => {
+    popup.style.display = "none";
 
-popup.style.display = "none";
+    // Redirect after a short delay
+    setTimeout(() => {
+        window.location.href = "https://www.instagram.com/meenaanushkaa?igsh=MXdwa2ExdWVkejF6bw==";
+    }, 200);
+};
 
-}
-
-window.onclick = (e)=>{
-
-if(e.target===popup){
-
-popup.style.display="none";
-
-}
-
-}
+window.onclick = (e) => {
+    if (e.target === popup) {
+        popup.style.display = "none";
+    }
+};
 
 // Floating Hearts
 
